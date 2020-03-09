@@ -24,18 +24,6 @@ var Countdown = React.createClass({
       }
     }
   },
-  componentWillUpdate: function(nextProps, nextState) {
-
-  },
-  //componentWillMount fires as compoent is first mounted (just before it displays on screen)
-  //does not have access to the refs, nor the DOM
-  componentWillMount: function() {
-    console.log('componentWillMount');
-  },
-  //componentDidMount fires right after everything is rendered in the DOM
-  componentDidMount: function() {
-    console.log('componentDidMount');
-  },
   //componentWillUnmount fires right before a component is removed from the DOM
   componentWillUnmount: function() {
     //console.log('componentWillUnmount');
